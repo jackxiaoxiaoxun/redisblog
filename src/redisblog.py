@@ -1,4 +1,4 @@
-
+import rblog.util
 import web
 
 
@@ -6,7 +6,7 @@ import web
 ### Url mappings
 
 urls = (
-    '/', 'Index',
+    '/', 'view.index.index',
     '/view/(\d+)', 'View',
     '/new', 'New',
     '/delete/(\d+)', 'Delete',
