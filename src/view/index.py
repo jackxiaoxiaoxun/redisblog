@@ -1,6 +1,6 @@
+from view.baseAction import baseAction
 
-
-class index():
-    def GET(self):
-        return 'this is intdex page'
+class index(baseAction):
+    def getindex(self):
+        return self.render.test()
 
